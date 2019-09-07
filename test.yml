@@ -1,7 +1,6 @@
 ---
-- name: "Playbook for Swimmy Servers"
+- name: "Playbook for Apach install"
   hosts: web
-  user: root
 
   tasks:
     - name: httpd package install
