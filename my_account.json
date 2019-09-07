@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "key-prism-252210",
+  "private_key_id": "f4d0a749503ae9abc461672eca7ed4c0b505fa25",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDYONDhrAOOdZ7y\nUlz8DF9QpOu8ertgbf6dIlgkH/YbmPcZ5ZBJ+/DP5f1w3bX88VPIkdRP5fnM+ao1\nQVkhtrEGzNC0yZ4CKc5Ph5Ysw2Nh/vaEZLEgnPWRLf9+c4/zEyFlfIiu0G8CEzpj\n0Gv4b8195cQ9nIAog0XWjh1o7BCaxvCyM91YmY2/wVOc55iUGMXWiM7uZ4dLSemV\n3rDlFoTEVRsbpNcXWwhXRkW9o1qmMwo9ocPy2ws9WZ3GRyULaq+cs7YTjrHyAe8W\nJiIWV9lvXvfIezsa0Gl8KiKLrBHbVETMyhZCpieQZRCY0eHfhHxhE5978rynDkCc\nBVMxbhcnAgMBAAECggEAIAYmNc5exno4POai+/evJEgQ3B0HZIxWAhrkmBEdx8+b\nhXvhJ3wHmhsTsuQ7gIeTo6ipm93RZiDyKyoPE/W1eW7bWHNmEibz9gZ8YQvdS9XR\n2CD7tPtaSZLY/PcLsnI6Z4gOzGl1j4aehssHOsgAVO2zZ3am6pkqvlDVHUWdXfbk\nQDA8aqQ3H1Uqgeg2ZeHSDvwMiGyPeju0cU7tXQ9XCribIqqtELFaBCVjv8m3jyb3\nEOskx5rLgAHDyAp8gh0xhUO0BuNf6jGskNoACQI9JUHaJPxCPJpuZZK6r6nEQjh1\nO7UbwZP5intxvFTJCMQNHN7/YU1s0LCM/D4+uHO8uQKBgQD5FC8NpFnl7sN+z4rt\n9dD6sblIkPD3uIECvL3Gjcqu9yzaHBENjRExEFL50SDiStG+GfB9/QvF6wo5Zcpz\noXNTSzjSRgTmkJhUlGidrab/RltWJoYj6r77vhnv9VAcs2j0NT+QvHgGkukUauGJ\nNspZQFHupZT0AxkOO0WDjse2DwKBgQDeOufFTYFEbKTL7OZKo/izAOLlawD2HwmN\nnHH8GrJIV6glRaG/CJiaAp4cbsJJSF0cgsq4EwRYik75xyrhG9qmHTNhzXmUYCTr\nKHZZiaNU1t9G/T2ZqfpTMmIAzyFy5QrBAdHTKh2JU8EbFSWL4E7nRibyilyDwvNs\n1Az4KsflaQKBgQDTDdNBD/5M4yAsF9h1AlHt2yJQ5uAISAKpOxzjXcpcr30F47pf\nbSUgGeD1ZcsjdJp9JqWtW/nZ3utu71241RlPfvHK2yHT7LnnEUoEMdzLeeZy/Xm0\nfXkO/2oi9g7IAw3vwB74mXpqt5lgf6BUEGUtc175hLzOdsGIWZjxfM6k6QKBgDSL\nqRG16cLMDYtKUImFi+CHbR7h1jBb1l5th2YcydrhHxjxBfWtiqefxtLiPX4mZh2/\nrz8m//gPe+0DctgXRfPRI70UYJL8yL3xq0owiTYeOF0Is/AJiO7zEskuMLKCBbDt\nRTew1ZsK+rX0ohQYzY9RvxPKM2XUSsqIuShUtT9BAoGAS39tmNKXO1N39tNb8mjb\n7qnYhEFVdFJYjazoL8zIjQ1QHrMc8ny4HqI0U7OsbaDI3+ZDmg2mqFtHEMYux3f2\np9Sf5cSI87NTkaUSUpbzXkh3bGi32YNBeDoh/utCGDAvcyGCbnSWj1giBuSD0VOZ\nvbLvGCB90Kz+1YL/IUDGQAo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ansible@key-prism-252210.iam.gserviceaccount.com",
+  "client_id": "106266352713210126742",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ansible%40key-prism-252210.iam.gserviceaccount.com"
+}

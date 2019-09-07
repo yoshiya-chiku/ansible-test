@@ -1,0 +1,21 @@
+- name: Create an instance
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  vars:
+      project_id: key-prism-252210
+      service_account_file: ./my_account.json
+      service_account_email: ansible@key-prism-252210.iam.gserviceaccount.com
+      zone: "us-central1-a"
+
+  tasks:
+    - name: Create an instance
+      gce:
+        instance_names: "ansible-test"
+        machine_type: "f1-micro"
+        image: "centos-7"
+        zone: "{{ zone }}"
+        disk_size: 64
+        service_account_email: "{{service_account_email}}"
+        credentials_file: "{{service_account_file}}"
+        project_id: "{{ project_id }}"
