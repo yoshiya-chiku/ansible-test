@@ -1,0 +1,24 @@
+---
+- name: "Playbook for Swimmy Servers"
+  hosts: web
+  user: root
+
+  tasks:
+    - name: httpd package install
+      yum:
+        name: httpd
+        state: present
+
+    - name: deploy index.html
+      copy:
+        src: ./index.html
+        dest: /var/www/html/index.html
+
+    - name: httpd service
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+
+        
