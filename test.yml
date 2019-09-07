@@ -1,8 +1,12 @@
 ---
 - name: "Playbook for Apach install"
   hosts: f1-micro
+  gather_facts: no
 
   tasks:
+    - name: Wait for system to become reachable
+      wait_for_connection:
+        timeout: 900
     - name: httpd package install
       yum:
         name: httpd

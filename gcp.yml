@@ -22,6 +22,3 @@
 
       register: gce
 
-    - name: Wait for ssh to come up
-      local_action: wait_for host="{{ item.public_ip }}" port=22 delay=10  timeout=100
-      with_items: gce.instance_data
