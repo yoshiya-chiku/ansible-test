@@ -1,6 +1,5 @@
 ---
 - name: "Playbook for Apach install"
-  hosts: web
 
   tasks:
     - name: httpd package install
